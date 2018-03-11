@@ -7,6 +7,7 @@ RUN apt-add-repository multiverse
 # Install the packages we need. Avahi will be included
 RUN apt-get update && apt-get install -y \
 	brother-lpr-drivers-extra brother-cups-wrapper-extra \
+	cups-backend-bjnp \
 	cups \
 	cups-pdf \
 	inotify-tools \
